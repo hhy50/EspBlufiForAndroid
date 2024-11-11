@@ -14,6 +14,7 @@
             app:title="@string/settings_mtu_length_title" />
         <androidx.preference.EditTextPreference
             android:hint="@string/settings_ble_prefix_hint"
+            app:enabled="false"
             app:iconSpaceReserved="false"
             app:key="@string/settings_ble_prefix_key"
             app:title="@string/settings_ble_prefix_title" />
